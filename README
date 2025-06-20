@@ -1,0 +1,5 @@
+The purpose of this web page is to validate ages.
+You will have two spaces to fill in your name and age.
+Then the Javascript file will validate whether you are of legal age or a minor.
+This same file is also responsible for printing the result on the web page.
+This page can also be viewed on different types of devices.

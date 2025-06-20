@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto para calcular el indice de masa corporal">
+    <meta name="organization" content="JonathanLop1">
+    <meta name="keywords" content="calculadora, indice, masa, corporal">
+    <meta name="sitedomain" content="https://github.com/JonathanLop1/SPA_IMC">
+    <meta name="author" content="Jonathan Andres Lopez Contreras">
+    <meta name="designer" content="Jonathan Andres Lopez Contreras">
+    <meta name="copyright" content="© 2025 JonathanLop1. All rights reserved">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <title>SPA_IMC</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>VERIFICADOR DE EDAD</h1>
+    </header>
+    <main>
+        <section class="info">
+            <div class="kg ig">
+                <label for="nombre">Ingrese su Nombre completo</label>
+                <input type="text" name="nombre" id="nomb" placeholder="Nombre completo" required>
+            </div>
+            <div class="alt ig">
+                <label for="edad">Ingrese su edad</label>
+                <input type="number" name="edad" id="age" placeholder="Edad" required>
+            </div>
+            <button onclick="calc()">VERIFICAR</button>
+        </section>
+        <section class="result">
+            <div id="rest" class="tex">
+
+            </div>
+            <div id="intent" class="tex">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 1999-2025 Jonathan Lopez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+<script src="./src/js/main.js"></script>
+</html>
