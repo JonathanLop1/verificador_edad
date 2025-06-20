@@ -1,5 +1,17 @@
-The purpose of this web page is to validate ages.
-You will have two spaces to fill in your name and age.
-Then the Javascript file will validate whether you are of legal age or a minor.
-This same file is also responsible for printing the result on the web page.
-This page can also be viewed on different types of devices.
+# 🧠 Age Verifier - SPA_IMC
+
+This project is a simple web application built using HTML, CSS, and JavaScript. Its purpose is to allow the user to enter their **name** and **age** to verify whether they are **underage or an adult**.
+
+---
+
+## ✨ Features
+
+- 🧾 **Interactive Form:** Users can input their name and age.
+- ⚡ **Instant Feedback:** The verification is processed in real time.
+- 🔐 **Input Validation:** Prevents numbers in names and disallows negative ages.
+- 🎨 **Responsive Interface:** Adapts to mobile devices, tablets, and larger screens.
+- 🌙 **Dark Mode:** Black background with white text for better readability.
+
+---
+
+## 📁 Project Structure
